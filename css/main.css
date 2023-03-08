@@ -1,0 +1,45 @@
+html{
+    background-color: #aad4cf;
+}
+
+
+img{
+    float:center;
+}
+
+
+body{
+    background-color:rgb(210, 243, 233);
+    padding: 0px 20px 20px 20px;
+    margin: 0;
+    font-size: 14px;
+
+}
+
+
+
+.title-page{
+    position: absolute;
+    color:white;
+    text-align:center;
+    
+}
+
+.fieldset {
+    width: 200px;
+    padding: 20px;
+    border: 2px black;
+}
+
+
+nav li{
+    list-style-type: none;
+    display:inline-block;
+    width:30%;
+}
+
+.footer{
+    text-align: right;
+}
+
+
