@@ -8,75 +8,107 @@
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="starfish">
-            <img src="images/lone-starfish-wide.jpg" alt="Starfish cover photo">
+    <div class="container">
+      <!-- Start of the Header section -->
+      <header>
+        <!-- Starfish main header image with center text -->
+        <div class="header_img">
+            <div style="margin: 0 auto; width: 200px;">
+              <h2 class="text-center">Lone Starfish</h2>
+            </div>
         </div>
-        <div class="title-page">Lonely Starfish</div>
-    </header>
-    <nav>
-        <ul id="main-menu">
-            <li>Home</li>
-            <li>Story</li>
-            <li>Contact</li>
-        </ul>
-    </nav>
-    <article>
-        <h1>Life of a Starfish</h1>
-        <img src="images/lone-starfish.jpg" alt="Lone starfish">
-        <p>Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa silver driftfish, kaluga lungfish boga greeneye, "french angelfish peamouth halfbeak batfish Australian prowfish mouthbrooder." Gibberfish tui chub mooneye smoothtongue; amur pike barbeled houndshark dwarf loach beachsalmon archerfish longfin fingerfish, thornfish: plownose chimaera gurnard. Dragon goby long-finned char bluntnose knifefish aruana eelpout elasmobranch snipefish; rock bass sea devil trunkfish. Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra Modoc sucker northern clingfish mudsucker x-ray tetra squaretail jackfish. Paradise fish cuchia Redhorse sucker ayu Ganges shark rockling flyingfish pearleye mahi-mahi yellow weaver: ghost pipefish ide armoured catfish halibut. Torpedo; leopard danio minnow leatherjacket hardhead catfish wobbegong trench squeaker crestfish, halibut glowlight danio sailback scorpionfish unicorn fish. Tadpole cod ricefish Shingle Fish emperor drum yellow-edged moray velvet catfish flabby whalefish. Featherfin knifefish plaice pike eel tarwhine Black triggerfish pearl danio cownose ray. Merluccid hake, platy peamouth humuhumunukunukuapua'a barred danio. Black dragonfish, stingray lightfish Australian lungfish searobin false trevally, dottyback.</p>
-    </article>
-    <section>
+        <!-- Three navigation areas Home,story and contact -->
+        <nav class="flex-container">
+            <div class="flex-item">
+              <a>HOME</a>
+            </div>
+            <div class="flex-item menu_border">
+              <a>STORY</a>
+            </div>
+            <div class="flex-item">
+              <a>CONTACT</a>
+            </div>
+          </nav>
+        </header>
+      <!-- End of the Header section -->
+  
+      <!-- Start of the main body section -->
+      <section class="main_section">
+        <h2>Life of a Starfish</h2>
+        <div class="main_content">
+          <img width="200" height="200" src="./images/lone-starfish.jpg" alt="Lone starfish small image" />
+          <span>
+            Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa
+            silver driftfish, kaluga lungfish boga greeneye, "french angelfish peamouth halfbeak batfish Australian
+            prowfish mouthbrooder." Gibberfish tui chub mooneye smoothtongue; amur pike barbeled houndshark dwarf loach
+            beachsalmon archerfish longfin fingerfish, thomfish: plownose chimaera gurnard. Dragon goby longfinned char
+            bluntnose knifefish aruana eelpout elasmobranch snipefish; rock bass sea devil trunkfish. Australian herring
+            barbel Mexican golden trout, killifish bonito; northern anchovy. Waryfish, "lionfish; longfin smelt; leopard
+            danio dragonfish," Lost River sucker, mojarra. Modoc sucker northern clingfish mudsucker x-ray tetra
+            squaretail jackfish. Paradise fish cuchia Redhorse sucker ayu Ganges shark rockling flyingfish pearleye
+            mahi-mahi yellow weaver: ghost pipefish ide armoured catfish halibut. Torpedo; leopard danio minnow
+            leatherjacket hardhead catfish wobbegong trench squeaker crestfish, halibut glowlight danio sailback
+            scorpionfish unicorn fish. Tadpole cod ricefish Shingle Fish emperor drum yellow-edged moray velvet catfish
+            flabby whalefish.
+  
+            Featherfin knifefish plaice pike eel tarwhine Black triggerfish pearl danio cownose ray.
+            Merluccid hake, platy peamouth humuhumunukunukuapua'a barred danio. Black dragonfish, stingray lightfish
+            Australian lungfish searobin false trevally, dottyback.
+          </span>
+          </p>
+        </div>
+      </section>
+      <!-- End of the main body section -->
+  
+  
+      <!-- Start of list items section -->
+      <section class="list_section">
         <h2>Facts About Starfish</h2>
-        <ul>
+        <div class="list_content">
+          <ul>
             <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
             <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
             <li>Herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
             <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
-        </ul>
-    </section>
-    <form>
+          </ul>
+        </div>
+      </section>
+      <!-- End of list item section -->
+  
+      <!-- Start of the Contact to learn more section  -->
+      <section class="contact_section">
         <h2>Contact to learn more</h2>
-        <fieldset>
-            <label for="fullname">Your Name</label>
-            <br>
-
-            <input id="fullname" type="text" name="fullname">
-            <br> 
-            <br>
-
-            <label for="email">Your Email</label>
-            <br>
-
-            <input id="email" type="email" name="email">
-            <br> 
-            <br>
-
-            <label for="message"> Your Message </label>
-            <br>
-
-            <input id="message" type="text" name="message">
-            <br> 
-            <br>
-
-            Would you like to visit the starfish?
-            <br><br>
-            <label for="radio1">Yes</label>
-            <input id="radio1" type="radio" name="rad1">
-
-            <label for="radio2">No</label>
-            <input id="radio2" type="radio" name="rad1">
-
-            <label for="radio3">Maybe</label>
-            <input id="radio3" type="radio" name="rad1">
-            <br><br>
-
-            <input type="submit" value="SEND">
-
-        </fieldset>
-    </form>
-    <footer>
-        <strong> &copy Lone Starfish </strong>
-    </footer>
-</body>
-</html>
+        <div class="list_content">
+          <form action="">
+            <label for="fname">Your Name</label><br>
+            <input class="f_input" type="text"><br><br>
+            <label for="email">Your Email</label><br>
+            <input class="f_input" type="email" id="email"><br><br>
+            <label for="message">Your Message</label> <br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+            <h3>Would you like to visit the starfish?</h3>
+            <label for="yes">Yes</label>
+            <input class="checkbox-round" type="checkbox" id="yes" name="yes" value="Bike">
+            <label for="no">No</label>
+            <input class="checkbox-round" type="checkbox" id="no" name="no" value="Bike">
+            <label for="maybe">Maybe</label>
+            <input class="checkbox-round" type="checkbox" id="maybe" name="naybe" value="Bike"> <br>
+            <br> <br>
+            <input class="input_btn" type="submit" value="Send">
+          </form>
+        </div>
+      </section>
+      <!-- End of the Contact to learn more section -->
+  
+      <!-- Start of the Footer section -->
+      <section class="footer_section">
+        <p>
+          &copy; Lone Starfish.
+        </p>
+      </section>
+      <!-- End of the Footer section -->
+  
+    </div>
+  </body>
+  
+  </html>
